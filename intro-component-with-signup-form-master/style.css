@@ -1,0 +1,135 @@
+body {
+    background-image: url(/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color: hsl(0, 81%, 68%);
+    margin: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width:375px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .contain {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+
+
+    }
+
+
+}
+
+#form-div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    /* box-sizing: border-box; */
+}
+
+.contain {
+
+    padding: 2%;
+    margin: 15%; 
+    /* width: auto; */
+    /* height: auto; */
+    display: flex;
+
+
+
+
+
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid brown;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
+
+.para {
+    margin-left: 6px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 8px;
+    color: hsl(0, 0%, 100%);
+}
+
+.btn {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+/* 
+.form {
+    width: 90%;
+    background-color: white;
+    border-radius: 6px;
+
+} */
+
+.try {
+    width: 94%;
+    padding: 6px;
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 0%;
+    padding: 12px;
+}
+
+.parag {
+    text-align: center;
+    color: hsl(310, 87%, 65%);
+    font-size: 10px;
+
+}
+
+button {
+    width: 100%;
+    background-color: hsl(154, 59%, 51%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: hsl(154, 54%, 70%);
+
+}
+
+.span {
+
+    color: brown;
+}
